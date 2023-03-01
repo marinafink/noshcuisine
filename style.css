@@ -1,0 +1,1779 @@
+@charset "UTF-8";
+/*STYLE BROWSER ENTFERNEN*/
+/* line 2, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+/*##################################   MIXINS/VARIABLEN    ####################################*/
+/*STYLE TEXT*/
+/* line 49, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.center_text {
+  text-align: center;
+}
+
+/* line 52, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.ueberschrift {
+  font-family: Songti SC;
+  color: #263C38;
+  font-size: 50px;
+  letter-spacing: -1.5px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* line 55, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.unterüberschrift {
+  font-family: Songti SC;
+  color: #263C38;
+  font-size: 30px;
+  letter-spacing: -1.5px;
+}
+
+/* line 58, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.fliesstext {
+  font-family: Europa-Regular;
+  color: #263C38;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* line 61, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.kleintext {
+  font-family: Europa-Regular;
+  color: #263C38;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 940px) {
+  /* line 65, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .ueberschrift {
+    font-size: 40px;
+  }
+  /* line 68, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .unterüberschrift {
+    font-size: 25px;
+  }
+  /* line 71, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .kleintext {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  /* line 76, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .ueberschrift {
+    font-size: 25px;
+  }
+  /* line 79, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .unterüberschrift {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+}
+
+/* line 84, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.a:visited {
+  text-decoration: none;
+  color: #263C38;
+}
+
+/*ÜBER UNS*/
+/* line 90, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.container_ueberuns_mittig {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+/* line 96, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.container_ueberuns_groß {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60%;
+  margin: 80px;
+}
+
+/* line 103, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.container_ueberuns_klein {
+  text-align: center;
+}
+
+/* line 106, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.ueberuns_img {
+  margin: 30px;
+}
+
+/* line 109, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.ueberuns_img:hover {
+  border-radius: 100%;
+  box-shadow: 0px 0px 20px 10px #b6b9b7;
+}
+
+@media (max-width: 1000px) {
+  /* line 115, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .ueberuns_img {
+    width: 160px;
+    height: 160px;
+  }
+  /* line 119, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .container_ueberuns_mittig {
+    margin: 20px;
+  }
+  /* line 122, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .container_ueberuns_groß {
+    margin: 60px;
+  }
+}
+
+@media (max-width: 750px) {
+  /* line 128, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .ueberuns_img {
+    width: 130px;
+    height: 130px;
+  }
+  /* line 132, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .container_ueberuns_mittig {
+    margin: 0px;
+  }
+  /* line 135, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .container_ueberuns_groß {
+    margin: 40px;
+  }
+}
+
+@media (max-width: 580px) {
+  /* line 140, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .ueberuns_img {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 144, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .container_ueberuns_mittig {
+    margin: 0px;
+  }
+  /* line 147, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .container_ueberuns_groß {
+    margin: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  /* line 153, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .ueberuns_img {
+    width: 70px;
+    height: 70px;
+  }
+  /* line 157, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .container_ueberuns_mittig {
+    margin: 0px;
+  }
+  /* line 160, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .container_ueberuns_groß {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  /* line 166, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .ueberuns_img {
+    width: 50px;
+    height: 50px;
+  }
+  /* line 170, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .container_ueberuns_mittig {
+    margin: 0px;
+  }
+  /* line 173, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .container_ueberuns_groß {
+    margin: 40px;
+  }
+}
+
+/*IMPRESSUM*/
+/* line 179, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.container_impressum_groß {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+/* line 184, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.container_impressum {
+  width: 60%;
+}
+
+/*KONTAKT (und auch Komponenten des Rezept-Formulars, weil hier auch die Inputs gebraucht werden*/
+/* line 188, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.kontakt input {
+  border-radius: 5rem;
+  font-size: 1rem;
+  max-width: 50%;
+  min-width: 20px;
+  text-align: center;
+  border-color: transparent;
+}
+
+/* line 196, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.kontakt textarea, .rezeptformular textarea {
+  border-radius: 2rem;
+  font-size: 1rem;
+  max-width: 50%;
+  text-align: center;
+  border-color: transparent;
+}
+
+/* line 203, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.kontakt input.form-control:focus, .rezeptformular input.form-control:focus, .suchleiste input.form-control:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 0.1rem #FC7F16;
+}
+
+/* line 207, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.kontakt textarea.form-control:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 0.1rem #FC7F16;
+}
+
+/* line 211, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.nachricht_zentrieren {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 215, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.form-check-input:checked {
+  background-color: #FC7F16;
+  border-color: #FC7F16;
+}
+
+/* Rezepte-Formular (siehe auch oben bei Kontakt, Styles werden teilweise gemeinsam verwendet*/
+/* line 222, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.marginleft_recipe {
+  margin-left: 100px;
+}
+
+/* line 225, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.rezeptformular .mb-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* line 230, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.rezeptformular input {
+  border-radius: 5rem;
+  font-size: 1rem;
+  width: 150px;
+  text-align: center;
+  border-color: transparent;
+  margin-top: 7px;
+  height: 38px;
+  padding-right: 10px;
+}
+
+/* line 240, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.rezeptformular select {
+  border-radius: 5rem;
+  font-size: 1rem;
+  text-align: center;
+  border-color: transparent;
+  margin-top: 7px;
+  margin-left: 20px;
+  height: 38px;
+  width: 200px;
+}
+
+/* line 250, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+textarea#instruction {
+  text-align: start;
+  padding: 20px;
+}
+
+/* line 254, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+input.add_ingredient {
+  background-color: #c8c1bb;
+  width: 17px;
+  padding-left: 2px;
+}
+
+/* line 259, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.categories {
+  display: flex;
+  flex-direction: row;
+  max-width: 700px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+/* line 267, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.dish_type, .restriction, .cuisine, .sondercategories {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 271, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.checkflex {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 275, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.check {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/* line 280, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.form-check-input:focus {
+  border: none;
+}
+
+/* line 283, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+input.form-check-input {
+  border-radius: .25em;
+  width: 20px;
+  height: 20px;
+  margin: 3px 10px 10px 10px;
+}
+
+/* line 289, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.form-outline mb-2 button {
+  padding: 2px 20px 2px 13px;
+  border-radius: 20px;
+  background: #e8e7e2;
+  color: #263C38;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  height: 38px;
+}
+
+/* line 300, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.form-outline mb-2 button {
+  background-color: #FC7F16;
+}
+
+/* line 303, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.form-select:focus {
+  border-color: #FC7F16;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* line 308, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.submitrecipe {
+  padding: 2px 20px 2px 13px;
+  border-radius: 20px;
+  background: #e8e7e2;
+  color: #263C38;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+}
+
+/* line 318, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.catmargin {
+  margin-left: 40px;
+}
+
+@media (max-width: 790px) {
+  /* line 322, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .marginleft_recipe {
+    margin-left: 10px;
+  }
+}
+
+/*FOOTER inkl. NEWSLETTER*/
+/* line 328, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+#footer_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/* line 337, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.footer_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* line 343, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.newsletter input {
+  border-radius: 5rem;
+  font-size: 1rem;
+  text-align: center;
+  border-color: transparent;
+  width: 80%;
+  align-items: center;
+}
+
+/* line 351, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.newsletter input.form-control:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 0.1rem #FC7F16;
+}
+
+/*Login & Register*/
+/* line 357, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.account input {
+  border-radius: 5rem;
+  font-size: 1rem;
+  text-align: center;
+  border-color: #e7e7e7;
+  align-items: center;
+}
+
+/* line 365, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.account input.form-control:focus {
+  border-color: #e7e7e7;
+  box-shadow: 0 0 0 0.1rem #FC7F16;
+}
+
+/* line 370, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.card-content {
+  border-radius: 1rem;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  min-width: 400px;
+}
+
+/* line 376, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.card-content:hover {
+  box-shadow: 0.5px 0.5px 1rem #b6b9b7;
+}
+
+@media (max-width: 940px) {
+  /* line 381, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .footer_container {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  /* line 385, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .card-content {
+    margin: 15px;
+  }
+}
+
+/*PLATZHALTER BILD STYLE FÜR NEWSLETTER DO*/
+/* line 391, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.bild_mittig {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px;
+}
+
+/* line 397, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.bild_mittig img {
+  border-radius: 50px;
+}
+
+@media (max-width: 1450px) {
+  /* line 401, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .bild_mittig img {
+    width: 1200px;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* line 406, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .bild_mittig img {
+    width: 900px;
+  }
+}
+
+@media (max-width: 1000px) {
+  /* line 411, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .bild_mittig img {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* line 416, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .bild_mittig img {
+    width: 500px;
+  }
+}
+
+/*PLATZHALTER BILD STYLE FÜR DO-SEITEN*/
+/* line 423, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.bild_mittig_groß {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px;
+}
+
+/* line 429, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.bild_mittig_groß img {
+  border-radius: 50px;
+}
+
+@media (max-width: 1750px) {
+  /* line 434, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .bild_mittig_groß img {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1450px) {
+  /* line 440, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .bild_mittig_groß img {
+    width: 800px;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* line 445, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .bild_mittig_groß img {
+    width: 600px;
+  }
+}
+
+@media (max-width: 1000px) {
+  /* line 450, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .bild_mittig_groß img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* line 455, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .bild_mittig_groß img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  /* line 461, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .bild_mittig_groß img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 350px) {
+  /* line 467, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .bild_mittig_groß img {
+    width: 200px;
+  }
+}
+
+/*HEADER*/
+@media (min-width: 1100px) {
+  /* line 474, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .navbar-expand-lg {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+}
+
+/* line 481, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.form-inline my-2 my-lg-0 {
+  flex-wrap: nowrap;
+}
+
+/* line 484, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.navbar_bild {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  margin-right: 10px;
+}
+
+/* line 492, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.navbar_item {
+  padding: 30px;
+  text-decoration: none;
+}
+
+/* line 496, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.rund_xs {
+  border-radius: 100%;
+  object-fit: cover;
+  height: 45px;
+  width: 45px;
+}
+
+/* line 502, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.rund_xs:hover {
+  box-shadow: 5px 5px 15px silver;
+  border-radius: 100%;
+}
+
+/*STARTSEITE*/
+/* line 507, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.container_index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 512, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.container_index_zentrieren {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*BUTTONS*/
+/* line 521, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.subscribe-btn {
+  padding: 0.5rem 2rem;
+  border-radius: 5rem;
+  background: linear-gradient(80deg, #ff9966, #FC7F16);
+  color: #fff;
+  font-size: .7rem;
+  border: none;
+  outline: none;
+}
+
+/* line 530, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.subscribe-btn:hover {
+  box-shadow: 5px 5px 15px #b6b9b7;
+}
+
+/*BENUTZERPROFIL*/
+/* line 535, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.container_cards_left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* line 542, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.mb-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 547, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.deletebutton {
+  /*z-index: +1;
+  position: absolute;
+  left: 890px;*/
+  top: 385px;
+}
+
+/* line 553, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.positioning {
+  position: relative;
+}
+
+/*RUNDE BILDER BENUTZERPROFIL*/
+/* line 558, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.rund_xl {
+  border-radius: 100%;
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+}
+
+@media (max-width: 940px) {
+  /* line 565, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .rund_xl {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/*###################################################################################*/
+/*##################################   STRUKTUR    ####################################*/
+/*###################################################################################*/
+/*Kasten der über alles, alles geht*/
+/* line 578, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.all {
+  background-image: url("pic_collection/background/main.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+/*WRAPPER*/
+/* line 588, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.main_wrapper {
+  padding: 50px;
+  min-height: 1050px;
+}
+
+/*CONTAINER (große Boxen, in denen meistens noch Items(kleinere divs) sind)*/
+/* line 597, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.container_groß {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+/* line 604, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.container_xl {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: flex-start;*/
+  min-width: 100%;
+}
+
+/* line 611, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.container_mittig {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*ITEMS (kleinere Boxen, meist gefleeeeext)*/
+/* line 619, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.item_klein {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  /*background-color: #7884F2;*/
+  text-align: center;
+}
+
+/* line 626, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.item_mittel {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  /*background-color: yellow;*/
+  text-align: center;
+  min-width: 350px;
+}
+
+/* line 635, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.profilepicture {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 300px;
+}
+
+/*Pills für Cards*/
+/* line 643, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.pill_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: space-evenly;
+}
+
+/* line 653, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.pill {
+  background-color: #FC7F16;
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  /*cursor: pointer;*/
+  border-radius: 50rem;
+  /*width: 75px;
+  height: 30px;*/
+  font-size: 10px;
+}
+
+/*Favorite Icon*/
+/* line 670, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.favorite {
+  cursor: pointer;
+  float: right;
+}
+
+/* line 675, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.favorite_pill {
+  background-color: white;
+  text-decoration: none;
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 50rem;
+  font-size: 10px;
+}
+
+/* line 688, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.favorite_pill img {
+  width: auto;
+  height: 30px;
+}
+
+/*Status Do-Seiten*/
+/*Ich glaube status_container, text & pic können weg, müsste überall durch andere klassen ersetzt haben!!!*/
+/* line 695, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.status_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: flex-start;
+}
+
+/* line 704, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.status_text {
+  padding: 20px;
+}
+
+/* line 708, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.status_pic {
+  width: 50%;
+  height: auto;
+  border-radius: 50px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*SEARCH SITE*/
+/* line 718, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.zentrieren_search {
+  display: flex;
+  justify-content: center;
+}
+
+/*CARDS*/
+/* line 723, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.container_cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+}
+
+/* line 733, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.cards {
+  background-color: white;
+  height: 25rem;
+  width: 15rem;
+  color: rgba(0, 0, 0, 0.55);
+  margin: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 16px;
+}
+
+/* line 749, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.cards:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+/* line 753, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.cards_img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  width: 100%;
+  height: 141px;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+/* line 762, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.cards_body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+
+/* line 767, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+h5 {
+  font-size: 1.25rem;
+}
+
+/* line 771, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.cards_title {
+  margin-bottom: .5rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+/* line 779, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.cards_text {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+/*VERSUCH FÜR GANZE KARTE LINK; NICHT FERTIG*/
+/* line 792, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+h5.cards_title {
+  color: gray;
+}
+
+/* line 795, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+p.cards_text {
+  color: gray;
+}
+
+/* Popup box BEGIN */
+/* line 800, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.hover_bkgr_fricc {
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+/* line 811, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.hover_bkgr_fricc .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* line 816, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.hover_bkgr_fricc > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 551px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 60%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 5%;
+}
+
+/* line 829, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+/* line 846, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+
+/* line 849, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.trigger_popup_fricc {
+  cursor: pointer;
+  font-size: 20px;
+  margin: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+/* Popup box BEGIN */
+/* REZEPTDETAILSEITE */
+/* line 862, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.container_detailview_top {
+  font-family: Songti SC;
+  color: #263C38;
+  font-size: 30px;
+  letter-spacing: -1.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+/* line 873, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.recipe_title {
+  margin-left: 100px;
+  margin-bottom: 20px;
+  font-family: Songti SC;
+  color: #263C38;
+  font-size: 50px;
+  letter-spacing: -1.5px;
+  text-align: center;
+  padding: 10px;
+  text-align: left;
+}
+
+/* line 880, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.recipe_description {
+  margin-left: 100px;
+  font-family: Songti SC;
+  color: #263C38;
+  font-size: 30px;
+  letter-spacing: -1.5px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+/* line 888, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.container_detailview_top_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 100px;
+  font-family: Songti SC;
+  color: #263C38;
+  font-size: 30px;
+  letter-spacing: -1.5px;
+  font-size: 20px;
+}
+
+/* line 897, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.container_profiledata {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: Songti SC;
+  color: #263C38;
+  font-size: 30px;
+  letter-spacing: -1.5px;
+}
+
+/* line 905, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.author_date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Songti SC;
+  color: #263C38;
+  font-size: 30px;
+  letter-spacing: -1.5px;
+  font-size: 20px;
+}
+
+/* line 912, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.author_date span {
+  font-weight: bold;
+}
+
+/* line 918, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.cooking_data span {
+  font-weight: bold;
+}
+
+/* normale Ausgaben aus DB */
+/* line 924, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.profilepicture_small {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 100px;
+  margin-right: 15px;
+}
+
+/* line 931, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.download_save_rec {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0%;
+}
+
+/* line 937, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.amountservings {
+  margin: 20px 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+}
+
+/* line 945, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.amountservings form {
+  margin: 20px;
+  left: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: auto;
+}
+
+/* line 954, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.amountservings input {
+  margin-left: 20px;
+  margin-right: 0px;
+  border-style: solid;
+  border-right-style: none;
+  border-width: 1.3px;
+  border-radius: 20px 0 0 20px;
+  border-color: #FC7F16;
+  max-width: 80px;
+  text-align: center;
+  height: auto;
+  padding: 10px;
+}
+
+/* line 967, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.amountservings button {
+  padding: 2px 20px 2px 13px;
+  border-radius: 0 20px 20px 0;
+  background: #FC7F16;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
+
+/* line 976, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.amountservings button:hover {
+  /*box-shadow: 5px 5px 15px silver;*/
+  background-color: #B57340;
+}
+
+/* line 980, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.amountservings input:hover {
+  /*box-shadow: 5px 5px 15px silver;*/
+  border-color: #B57340;
+}
+
+/* line 984, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.amountservings input:focus-visible {
+  border-color: #B57340;
+}
+
+/* line 987, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.amountservings img {
+  height: 40px;
+  width: 40px;
+}
+
+/* line 991, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.amountservings span {
+  font-family: Songti SC;
+  color: #263C38;
+  font-size: 30px;
+  letter-spacing: -1.5px;
+  font-size: 20px;
+}
+
+/* line 995, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.ingredients_all {
+  margin-left: 100px;
+  width: 800px;
+}
+
+/* line 999, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.ingredient {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20%;
+}
+
+/* line 1006, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.unit {
+  margin: 10px;
+}
+
+/* line 1009, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.instruction_title {
+  margin-left: 100px;
+  margin-top: 40px;
+  font-weight: bold;
+  font-family: Songti SC;
+  color: #263C38;
+  font-size: 30px;
+  letter-spacing: -1.5px;
+  font-size: 20px;
+}
+
+/* line 1017, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.recipe_instruction {
+  margin: 40px 0 100px 100px;
+  width: 800px;
+  font-family: Europa-Regular;
+  color: #263C38;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* SLideshow */
+/* line 1024, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.slideshow-container {
+  box-sizing: border-box;
+  position: relative;
+  object-fit: contain;
+  margin-left: 100px;
+}
+
+/* line 1031, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.slidesimg {
+  object-fit: cover;
+  border-radius: 40px;
+  width: 600px;
+  height: 400px;
+  background-color: #c8c1bb;
+}
+
+/* line 1039, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.slider_slides {
+  /* die images verstecken */
+  display: none;
+}
+
+/* line 1043, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -45px;
+  transition: 0.6s ease;
+}
+
+/* line 1051, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.prev img, .next img {
+  width: 100px;
+}
+
+/* der weiter button kommt nach rechts */
+/* line 1056, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.next {
+  right: 0;
+}
+
+/* line 1060, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.prev:hover, .next:hover {
+  /*hier noch was cooles hinzufügen*/
+  transition: 0.6s ease;
+}
+
+/* line 1065, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.textslider {
+  color: #263C38;
+  background-color: #e8e7e2;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 2px 12px;
+  position: relative;
+  bottom: 50px;
+  left: 0%;
+  text-align: center;
+  letter-spacing: 0.1px;
+  max-width: 200px;
+  margin: auto;
+}
+
+/* Number text (1/3 etc) */
+/* line 1081, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.numbertext {
+  color: #263C38;
+  background-color: #e8e7e2;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 2px 12px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  margin: 15px;
+}
+
+/* Fading animation */
+/* line 1094, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Sternebewertung */
+/* line 1107, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.bewertung label {
+  cursor: Pointer;
+  height: 20px;
+}
+
+/* line 1111, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.bewertung input {
+  /*radio button ausblenden*/
+  display: None;
+}
+
+/* line 1114, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.sternebewertung {
+  float: Left;
+}
+
+/* line 1117, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.sternebewertung:not(:checked) > input {
+  display: None;
+}
+
+/* line 1120, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.sternebewertung:not(:checked) > label {
+  float: Right;
+  width: 35px;
+  overflow: Hidden;
+  white-space: Nowrap;
+  cursor: Pointer;
+  font-size: 200%;
+  line-height: 1.2;
+  color: #D0D0D0;
+  text-shadow: 1px 1px #B0B0B0, 2px 2px #606060, 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.3);
+  transition: all .5s;
+}
+
+/* line 1132, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.sternebewertung:not(:checked) > label::before {
+  content: '★ ';
+}
+
+/* line 1135, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.sternebewertung > input:checked ~ label {
+  color: #FC7F16;
+  text-shadow: 1px 1px #C06000, 2px 2px #904000, 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.3);
+  animation: twinkle 2s ease-in-out alternate;
+  animation-iteration-count: 1;
+}
+
+/* line 1141, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.sternebewertung:not(:checked) > label:hover,
+.sternebewertung:not(:checked) > label:hover ~ label {
+  color: #FC7F16;
+  text-shadow: 1px 1px #F29E02, 2px 2px #B57340, 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.3);
+}
+
+@keyframes twinkle {
+  50% {
+    text-shadow: 1px 1px #FFE653, 2px 2px #ffe1bf, 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.3);
+  }
+  100% {
+    color: #ff8000;
+    text-shadow: 1px 1px #C06000, 2px 2px #904000, 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* Kommentare und Sternebewertungen */
+/* line 1159, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.recipe_review {
+  box-sizing: border-box;
+  font-family: Europa-Regular;
+  color: #263C38;
+  font-size: 16px;
+  line-height: 1.6;
+  width: 800px;
+  margin-left: 100px;
+  background-color: transparent;
+  border: 2px solid #c8c1bb;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+/* line 1170, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.recipe_review form {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* line 1176, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.comment-box {
+  width: 400px;
+}
+
+/* line 1179, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.comment-box button {
+  height: 35px;
+}
+
+/* line 1183, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.comment-box textarea {
+  background: none;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 2px;
+  border-color: #c8c1bb;
+  padding: 20px;
+}
+
+/* line 1191, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.comment-box :hover {
+  border-color: #FC7F16;
+}
+
+/* line 1194, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.comment-box :focus-visible {
+  border-color: #FC7F16;
+}
+
+/* line 1197, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.comment-box:focus {
+  border-color: #FC7F16;
+}
+
+/* line 1200, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.form-control form-control-sm:hover {
+  background-color: #FC7F16;
+}
+
+/* line 1204, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.review_left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 15px;
+}
+
+/* line 1210, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.bewertungfile {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+/* line 1214, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.bewertungfile input {
+  font-size: 16px;
+}
+
+/* line 1217, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.recipe_review button {
+  padding: 2px 20px 2px 13px;
+  border-radius: 20px;
+  background: #e8e7e2;
+  color: #263C38;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+}
+
+/* line 1227, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.recipe_review button:hover {
+  background-color: #FC7F16;
+}
+
+/* line 1230, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.comments {
+  margin-left: 100px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+/* line 1238, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.single_comment {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-top: 1px solid #c8c1bb;
+  padding: 30px;
+}
+
+/* line 1245, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.nocomments {
+  margin-left: 100px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-family: Songti SC;
+  color: #263C38;
+  font-size: 30px;
+  letter-spacing: -1.5px;
+  font-size: 20px;
+}
+
+/* line 1252, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.nocomments a:link {
+  text-decoration: none;
+  color: #FC7F16;
+}
+
+/* line 1257, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+a {
+  color: #FC7F16;
+}
+
+/* line 1261, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+a:visited {
+  color: #263C38;
+  color: #FC7F16;
+}
+
+/* line 1266, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.nocomments a:hover {
+  color: #C06000;
+}
+
+/* line 1269, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.commentright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* line 1275, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.commentrighttop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+/* line 1281, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.commentstars {
+  height: 35px;
+  margin-top: -7px;
+}
+
+/* line 1285, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.commentstars img {
+  height: 35px;
+}
+
+@media (max-width: 1200px) {
+  /* line 1289, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .container_detailview_top_right {
+    /*margin-top: 40px;*/
+  }
+}
+
+@media (max-width: 940px) {
+  /* line 1294, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .comments, .recipe_instruction, .recipe_review {
+    width: 500px;
+  }
+  /* line 1297, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .recipe_review form {
+    justify-content: flex-end;
+  }
+  /* line 1300, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .review_left {
+    margin-bottom: 40px;
+  }
+  /* line 1303, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .slidesimg {
+    width: 500px;
+    height: 300px;
+  }
+  /* line 1307, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .ingredients_all {
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 0px;
+  }
+  /* line 1312, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .amountservings {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /* line 1316, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .amountservings input {
+    margin-left: 0px;
+  }
+  /* line 1319, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .amountservings form {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 630px) {
+  /* line 1324, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .slidesimg {
+    width: 400px;
+    height: 200px;
+  }
+  /* line 1328, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .recipe_title {
+    font-size: 40px;
+  }
+  /* line 1331, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .recipe_description {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  /* line 1335, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .recipe_instruction {
+    width: 400px;
+    line-height: 1;
+    margin: 20px 0 10px 100px;
+  }
+  /* line 1340, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .ingredient {
+    line-height: 1;
+  }
+  /* line 1343, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .nocomments {
+    font-size: 17px;
+    margin-top: 40px;
+    width: 400px;
+  }
+  /* line 1348, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .comments, .recipe_review {
+    width: 400px;
+  }
+}
+
+@media (max-width: 510px) {
+  /* line 1353, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .recipe_title, .slideshow-container, .container_detailview_top_right, .recipe_description, .amountservings, .instruction_title, .recipe_instruction, .nocomments, .comments, .recipe_review {
+    margin-left: 50px;
+  }
+  /* line 1357, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .slidesimg {
+    width: 400px;
+    height: 200px;
+  }
+  /* line 1361, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .recipe_title {
+    font-size: 40px;
+  }
+  /* line 1364, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .recipe_description {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  /* line 1368, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .recipe_instruction {
+    width: 400px;
+    line-height: 1;
+    margin: 20px 0 10px 100px;
+  }
+  /* line 1373, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .ingredient {
+    line-height: 1;
+  }
+  /* line 1376, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .nocomments {
+    font-size: 17px;
+    margin-top: 40px;
+    width: 400px;
+  }
+  /* line 1381, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .comments {
+    width: 400px;
+  }
+}
+
+@media (max-width: 350px) {
+  /* line 1386, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+  .container_detailview_top_right {
+    margin-top: 40px;
+  }
+}
+
+/*SUCHLEISTE*/
+/* line 1392, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.suchleiste input.form-control:focus {
+  border-color: transparent;
+  box-shadow: black;
+}
+
+/* line 1396, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.weite_suchleiste {
+  width: 50%;
+}
+
+/* line 1399, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.search_button {
+  min-width: 90px;
+  height: 53px;
+  color: #fff;
+  background-color: white;
+  border-color: white;
+  border-radius: 0rem 5rem 5rem 0rem;
+}
+
+/* line 1407, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+button.btn.btn-light.dropdown-toggle {
+  color: #fff;
+  background-color: white;
+  border-color: white;
+  border-radius: 5rem 0rem 0rem 5rem;
+}
+
+/* line 1413, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.dropdown-menu.show {
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+  width: 700px;
+}
+
+/* line 1419, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: none;
+}
+
+/* line 1424, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #263C38;
+  background-color: #e8e7e2;
+}
+
+/* line 1428, ../../../../../PhpstormProjects/S22WPG01/scss/style.scss */
+.container_klein {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

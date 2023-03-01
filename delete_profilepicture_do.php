@@ -1,0 +1,51 @@
+<?php
+require("includes/db_inc.php");
+session_start();
+global $pdo;
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profilbild Löschen - Nosh Cuisine</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="pic_collection/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="all">
+    <!--HEADER-->
+    <?php
+    require("includes/header_inc.php");
+    ?>
+    <div class="main_wrapper">
+<?php
+$_SESSION["recipe_id"]=$_GET["id"];
+if (!isset($_SESSION["user_id"])) {
+    echo "<div class='ueberschrift'>Ups!</div><div class='fliesstext center_text'> Du musst dich zuerst einloggen.</div>";
+    echo "<div class=' fliesstext center_text'>Hier gehts zum <a href='login.php'>Login</a>!</div>";
+    echo "<div class='bild_mittig'><img src='pic_collection/jummy.jpg' alt='leckeres Essen'></div>";
+    require("includes/footer_inc.php");
+    die();
+}
+
+$delete = $pdo->prepare("UPDATE user SET profilepicture=NULL WHERE id=:id ");
+$delete->bindParam(":id", $_SESSION["user_id"]);
+if($delete->execute()){
+    echo "<div class='ueberschrift'>Yeaah!</div><div class='fliesstext center_text'> Dein Profilbild wurde gelöscht.</div>";
+    echo "<div class=' fliesstext center_text'>Hier gehts zurück zum <a href='benutzerprofil.php'>Benutzerprofil</a>!</div>";
+    echo "<div class='bild_mittig'><img src='pic_collection/jummy.jpg' alt='leckeres Essen'></div>";
+    require("includes/footer_inc.php");
+}else{
+    die ("DB-Fehler");
+}
+?>
+<br><br>
+    </div>
+</div>
+</body>
+</html>
