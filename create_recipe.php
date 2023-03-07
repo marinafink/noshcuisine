@@ -23,8 +23,8 @@ global $pdo;
 <?php
 require("includes/header_inc.php");
 ?>
-<div class="marginleft_recipe"
-    <h1 class="ueberschrift">Erstelle ein Rezept</h1>
+<div class="marginleft_recipe">
+    <h1 class="ueberschrift">Create your own recipe</h1>
 
     <?php
     #prüfen, ob der User eingeloggt ist
@@ -104,17 +104,17 @@ require("includes/header_inc.php");
 
     <form class="recipe_form" action="create_recipe_do.php" method="post" enctype="multipart/form-data">
         <div class="rezeptformular">
-            <div class="unterüberschrift">Titel *</div>
+            <div class="unterüberschrift">Title *</div>
             <div class='form-outline mb-2'>
                 <input type="text" name="title" placeholder="z.B. Pfannkuchen" id="title" required>
             </div>
 
-            <div class="unterüberschrift">Beschreibung</div>
+            <div class="unterüberschrift">Description</div>
             <div class='form-outline mb-2'>
              <input type="text" name="description" placeholder="Zusätliche Infos..." id="description">
             </div>
 
-            <div class="unterüberschrift">Zutaten ︎</div>
+            <div class="unterüberschrift">Ingredients︎</div>
             <div class='form-outline mb-2'>
                 <p class="fliesstext">Mengenangaben für <input type="number" name="amount_servings" min="1" max="20" id="amount_servings" required> Portionen *︎</p>
             </div>
@@ -207,12 +207,12 @@ require("includes/header_inc.php");
                 ?>
             </div>
 
-            <div class="unterüberschrift">Kalorien</div>
+            <div class="unterüberschrift">Calories</div>
             <div class='form-outline mb-2'>
                 <p class="fliesstext"><input type="number" name="calories" id="calories"> kcal pro Portion</p>
             </div>
 
-            <div class="unterüberschrift">Kategorien</div>
+            <div class="unterüberschrift">Categories</div>
             <br>
 
             <div class="categories">
@@ -286,12 +286,12 @@ require("includes/header_inc.php");
                 </div>
             </div>
 
-            <div class="unterüberschrift">Bild hochladen</div> <!-- Kommt in die picture Tabelle! -->
+            <div class="unterüberschrift">Upload Picture</div> <!-- Kommt in die picture Tabelle! -->
             <div>
                 <input type="file" name="file" class="form-control" style="width: 350px;"><br>
             </div>
             <div class='form-outline mb-2'>
-                <button class="submitrecipe" type="submit" style="height: 40px; background-color: #FC7F16;">Absenden</button>
+                <button class="submitrecipe" type="submit" style="height: 40px; background-color: #FC7F16;">Submit</button>
             </div>
             <br><b>Hinweis:</b> Felder mit * müssen ausgefüllt werden!
         </div>

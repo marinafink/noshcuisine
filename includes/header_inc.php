@@ -11,13 +11,13 @@ global $pdo;
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="search.php">Rezepte stöbern</a>
+                <a class="nav-link" href="search.php">Browse Recipes</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="ueberuns.php">Über Uns</a>
+                <a class="nav-link" href="ueberuns.php">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="kontakt.php">Kontakt</a>
+                <a class="nav-link" href="kontakt.php">Contact</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="impressum.php">Impressum</a>

@@ -82,7 +82,7 @@ global $pdo;
         <?php
         require("includes/header_inc.php");
         ?>
-        <div class="ueberschrift"><p>Herzlich Willkommen auf der Seite von Nosh Cuisine</p></div>
+        <div class="ueberschrift"><p>Welcome to Nosh Cuisine!</p></div>
         <!--SUCHLEISTE-->
         <div class="container_mittig">
             <?php

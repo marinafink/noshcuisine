@@ -2,7 +2,7 @@
     <hr>
     <div class="footer_container">
         <div class="card-content">
-            <div class="unterüberschrift">Soziale Netzwerke</div>
+            <div class="unterüberschrift">Social Media</div>
             <a href="https://www.tiktok.com"><img class="rund_xs" src="pic_collection/icons/icon_tiktok.png" alt="Tiktok" width="50" height="50"></a>
             <a href="https://www.instagram.com"><img class="rund_xs" src="pic_collection/icons/icon_insta.png" alt="Instagram" width="50" height="50"></a>
             <a href="https://www.facebook.com"><img class="rund_xs" src="pic_collection/icons/icon_facebook.png" alt="Facebook" width="50" height="50"></a>
@@ -12,13 +12,13 @@
         </div>
         <form action="newsletter_do.php" method="post" enctype="multipart/form-data" class="card-content">
             <div class="unterüberschrift">Newsletter</div>
-            <div class="fliesstext">Melde dich jetzt an!</div>
+            <div class="fliesstext">Subscribe now!</div>
             <div class="newsletter">
                 <div class='form-outline mb-2'>
-                    <input type='email' name='newsletter' placeholder='Deine E-Mail-Adresse' class='form-control form-control-lg'>
+                    <input type='email' name='newsletter' placeholder='Your E-Mail-Adress' class='form-control form-control-lg'>
                 </div>
             </div>
-            <button class="subscribe-btn" type="submit">Anmelden</button>
+            <button class="subscribe-btn" type="submit">Subscribe</button>
         </form>
     </div>
     <br>
