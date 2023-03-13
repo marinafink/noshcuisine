@@ -206,7 +206,7 @@ global $pdo;
                             echo "Erstelle jetzt dein erstes eigenes Rezept!";
                             echo "</div>";
                             echo "<div class='pill_container'>";
-                            echo "<a href='create_recipe.php'><button class='subscribe-btn' type='submit'>Rezept erstellen</button></a>";
+                            echo "<a href='create_recipe.php'><button class='subscribe-btn' type='submit'>Create recipe</button></a>";
                             echo "</div><br><br>";
                             echo "</div>";
                         }
