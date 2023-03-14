@@ -132,7 +132,7 @@ global $pdo;
                                 </div>
                             </div>
                         </div>
-                        <input type="text" name="search" id="search" class="form-control" aria-label="Search input with dropdown button" placeholder="Suche nach deinen Lieblingsrezepten..." style="height: 55px; border-color: transparent;box-shadow: none;">
+                        <input type="text" name="search" id="search" class="form-control" aria-label="Search input with dropdown button" placeholder="Search for your favorite recipes..." style="height: 55px; border-color: transparent;box-shadow: none;">
                         <div class="input-group-append">
                             <input class="search_button" type="image" src="pic_collection/icons/icon_search.png" style="margin-top: 1px; alt="Submit" />
                         </div>
