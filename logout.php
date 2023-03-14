@@ -22,8 +22,8 @@ global $pdo;
             <?php
             if (!isset($_SESSION["user_id"])) {
                 require("includes/header_inc.php");
-                echo "<div class='ueberschrift'>Upsala!</div>";
-                echo "<div class='fliesstext center_text'>Du bist schon ausgeloggt.</div>";
+                echo "<div class='ueberschrift'>Whoops!</div>";
+                echo "<div class='fliesstext center_text'>You're already logged out.</div>";
                 echo "<div class='bild_mittig_groß'><img src='pic_collection/couple_cooking.jpg' alt='Kochendes Pärchen' style='max-width:1400px'></div>";
                 require("includes/footer_inc.php");
                 die();
@@ -32,8 +32,8 @@ global $pdo;
                 $username= $_SESSION['username'];
                 session_destroy();
                 require("includes/header_inc.php");
-                echo "<div class='ueberschrift'>Bis zum nächsten Mal und guten Appetit!</div>";
-                echo "<div class='fliesstext center_text'>Hoffentlich sehen wir dich bald wieder, ".$username.".</div>";
+                echo "<div class='ueberschrift'>See you next time and bon appétit!</div>";
+                echo "<div class='fliesstext center_text'>We hope to see you again soon, ".$username.".</div>";
                 echo "<div class='bild_mittig_groß'><img src='pic_collection/couple_cooking.jpg' alt='Kochendes Pärchen' style='max-width:1400px'></div>";
                 require("includes/footer_inc.php");
             }
