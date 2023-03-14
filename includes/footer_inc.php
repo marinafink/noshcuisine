@@ -8,7 +8,7 @@
             <a href="https://www.facebook.com"><img class="rund_xs" src="pic_collection/icons/icon_facebook.png" alt="Facebook" width="50" height="50"></a>
             <a href="https://www.linkedin.com"><img class="rund_xs" src="pic_collection/icons/icon_linkedin.png" alt="LinkedIn" width="50" height="50"></a>
             <br>
-            <div class="fliesstext">Hier findest du viele Rezeptvideos mit super<br> Schritt-für-Schritt Anleitungen. Schau vorbei!</div>
+            <div class="fliesstext">Find lots of recipe videos with awesome<br> step-by-step instructions here. Check it out!</div>
         </div>
         <form action="newsletter_do.php" method="post" enctype="multipart/form-data" class="card-content">
             <div class="unterüberschrift">Newsletter</div>
