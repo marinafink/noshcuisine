@@ -45,8 +45,8 @@ global $pdo;
                     $_SESSION["username"] = $row["username"];
                     $_SESSION["user_id"] = $row["id"];
                     require("includes/header_inc.php");
-                    echo "<div class='ueberschrift'>Willkommen zurück, " . $_SESSION["username"] . ".</div>";
-                    echo "<div class='fliesstext center_text'>Schön dich wieder auf Nosh Cuisine zu sehen.<br>Wir wünschen dir viel Spaß beim Rezepte entdecken.</div>";
+                    echo "<div class='ueberschrift'>Welcome back, " . $_SESSION["username"] . "!</div>";
+                    echo "<div class='fliesstext center_text'>Good to see you back on Nosh Cuisine.<br>We hope you enjoy discovering our recipes!</div>";
                     echo "<div class='bild_mittig_groß'><img src='pic_collection/family_cooking.jpg' alt='Kochende Familie' style='max-width:1400px'></div>";
                     require("includes/footer_inc.php");
                 } else {
