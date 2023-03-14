@@ -38,33 +38,33 @@ global $pdo;
                                 <div class="card-body p-5 text-center">
                                     <form action="login_do.php" method="post">
                                         <fieldset>
-                                            <h3 class="mb-5">Logge dich ein</h3>
+                                            <h3 class="mb-5">Log in!</h3>
                                             <div class="account">
                                                 <div class="form-outline mb-4">
-                                                    <label for="username" class="form-label">Benutzername</label>
-                                                    <input type="text" name="username" placeholder="Dein Username" id="username" class="form-control form-control-lg" style="border-radius: 5rem;font-size: 1rem;">
+                                                    <label for="username" class="form-label">Username</label>
+                                                    <input type="text" name="username" placeholder="Enter Username" id="username" class="form-control form-control-lg" style="border-radius: 5rem;font-size: 1rem;">
                                                 </div>
                                             </div>
 
                                             <br><br>
                                             <div class="account">
                                                 <div class="form-outline mb-4">
-                                                    <label class="form-label" for="password">Passwort</label>
-                                                    <input type="password" name="password" placeholder="Dein Passwort" id="password" class="form-control form-control-lg" style="border-radius: 5rem;font-size: 1rem;">
+                                                    <label class="form-label" for="password">Password</label>
+                                                    <input type="password" name="password" placeholder="Enter Passwort" id="password" class="form-control form-control-lg" style="border-radius: 5rem;font-size: 1rem;">
                                                 </div>
                                             </div>
 
                                             <br><br>
-                                            <button type="submit" class="subscribe-btn" style="font-size: 1rem;">Einloggen</button>
+                                            <button type="submit" class="subscribe-btn" style="font-size: 1rem;"> log in </button>
 
                                             <br><br>
 
                                             <legend style="color:#ced4da"></legend>
                                         </fieldset>
                                         <br>
-                                        Du hast noch keinen Account?
+                                        You don't have an account yet?
                                         <br>
-                                        Dann klicke <a href="register.php" style="color:#FC7F16;">hier</a> um dich bei uns zu registrieren.
+                                        Then click <a href="register.php" style="color:#FC7F16;">here</a> to register with us.
                                     </form>
                                 </div>
                             </div>
