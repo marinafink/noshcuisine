@@ -76,7 +76,7 @@ global $pdo;
             <?php
             require("includes/header_inc.php");
             ?>
-        <div class="ueberschrift">Dein Profil</div>
+        <div class="ueberschrift">Your Profile</div>
             <div class="center_text">
             <!--ÜBERPRÜFUNG OB EINGELOGGT-->
             <?php
@@ -97,9 +97,9 @@ global $pdo;
                         echo "<img class='rund_xl' src='files/" . $row["profilepicture"] . "'alt='Profilbild von" . $row["username"] . "'>" ."<br><br>";
                     }
                     echo "<div class='unterüberschrift' style='letter-spacing: 1px'><b>".$row["username"]."</b></div>"."<br>";
-                    echo "<div class='form-outline mb-2'><label for='password' class='form-label'><div class='kleintext'>Passwort</div></label><input type='text' name='password' value='********' readonly='readonly' class='form-control form-control-lg' style='border-radius: 5rem;font-size: 1rem;max-width: 30%;text-align: center;background-color: #E8E7E1;border-color: lightgrey;'></div>";
-                    echo "<div class='form-outline mb-2'><label for='mail' class='form-label'><div class='kleintext'>E-Mail-Adresse</div></label><input type='text' name='mail' value='$row[mail]' readonly='readonly' class='form-control form-control-lg' style='border-radius: 5rem;font-size: 1rem;max-width: 30%;text-align: center;background-color: #E8E7E1;border-color: lightgrey;'></div>";
-                    echo "<div class='form-outline mb-2'><label for='membership_since' class='form-label'><div class='kleintext'>Mitglied seit</div></label><input type='text' name='membership_since' value='$row[membership_since]' readonly='readonly' class='form-control form-control-lg' style='border-radius: 5rem;font-size: 1rem;max-width: 30%;text-align: center;background-color: #E8E7E1;border-color: lightgrey;'></div>";
+                    echo "<div class='form-outline mb-2'><label for='password' class='form-label'><div class='kleintext'>Password</div></label><input type='text' name='password' value='********' readonly='readonly' class='form-control form-control-lg' style='border-radius: 5rem;font-size: 1rem;max-width: 30%;text-align: center;background-color: #E8E7E1;border-color: lightgrey;'></div>";
+                    echo "<div class='form-outline mb-2'><label for='mail' class='form-label'><div class='kleintext'>E-Mail Adress</div></label><input type='text' name='mail' value='$row[mail]' readonly='readonly' class='form-control form-control-lg' style='border-radius: 5rem;font-size: 1rem;max-width: 30%;text-align: center;background-color: #E8E7E1;border-color: lightgrey;'></div>";
+                    echo "<div class='form-outline mb-2'><label for='membership_since' class='form-label'><div class='kleintext'>Membership since</div></label><input type='text' name='membership_since' value='$row[membership_since]' readonly='readonly' class='form-control form-control-lg' style='border-radius: 5rem;font-size: 1rem;max-width: 30%;text-align: center;background-color: #E8E7E1;border-color: lightgrey;'></div>";
                 }
             }
             ?>
@@ -110,7 +110,7 @@ global $pdo;
                 </form>
             </div>
             <div class="container_xl">
-                <div class="unterüberschrift">Deine Favoriten</div>
+                <div class="unterüberschrift">Your Favorites</div>
                 <!--ANZAHL FAVORITEN-->
                 <?php
                 $anzahl = $pdo->prepare("SELECT COUNT(*) FROM favorites,recipe WHERE user_id= :user_id AND recipe_id=id");
@@ -119,9 +119,9 @@ global $pdo;
                 if ($anzahl -> execute()){
                     while($row=$anzahl->fetch()){
                         if ($row["COUNT(*)"]==1){
-                            echo "<div class='kleintext'>"."Du hast ".$row["COUNT(*)"]. " Favorit:"."</div>"."<br>";
+                            echo "<div class='kleintext'>"."You have ".$row["COUNT(*)"]. " Favorite:"."</div>"."<br>";
                         }elseif ($row["COUNT(*)"]>1){
-                            echo "<div class='kleintext'>"."Du hast ".$row["COUNT(*)"]. " Favoriten:"."</div>"."<br>";
+                            echo "<div class='kleintext'>"."You have ".$row["COUNT(*)"]. " Favorites:"."</div>"."<br>";
                         }else{
                             #Placeholder Rezeptcard, wenn keine Favoriten
                             echo "<div class='cards'>";
@@ -129,11 +129,11 @@ global $pdo;
                             echo "<img class='cards_img' src='files/placeholder_recipepicture.jpeg' alt='Platzhalter Rezeptbild'>";
                             echo "</a>";
                             echo "<div class='cards_body'>";
-                            echo "<h5 class='cards_title'>Du hast noch keine Favoriten</h5>";
-                            echo "Stöbere in unseren Rezepten und finde deinen Favorit!";
+                            echo "<h5 class='cards_title'>You don't have favorites yet</h5>";
+                            echo "Browse our recipes and find your favorites now!";
                             echo "</div>";
                             echo "<div class='pill_container'>";
-                            echo "<a href='search.php'><button class='subscribe-btn' type='submit'>Jetzt stöbern!</button></a>";
+                            echo "<a href='search.php'><button class='subscribe-btn' type='submit'>Browse now!</button></a>";
                             echo "</div><br><br>";
                             echo "</div>";
                             }
@@ -184,7 +184,7 @@ global $pdo;
             </div>
             <!--ANZAHL ERSTELLTE REZEPTE-->
             <div class="container_xl">
-                <div class="unterüberschrift">Deine Rezepte</div>
+                <div class="unterüberschrift">Your recipes</div>
                 <?php
                 $anzahl = $pdo->prepare("SELECT COUNT(*) FROM recipe WHERE author= :author ");
                 $anzahl->bindParam(":author", $_SESSION["username"]);
@@ -192,9 +192,9 @@ global $pdo;
                 if ($anzahl -> execute()){
                     while($row=$anzahl->fetch()){
                         if ($row["COUNT(*)"]==1){
-                            echo "<div class='kleintext'>"."Du hast ".$row["COUNT(*)"]. " Rezept erstellt:"."</div>"."<br>";
+                            echo "<div class='kleintext'>"."You've created ".$row["COUNT(*)"]. " recipe:"."</div>"."<br>";
                         }elseif ($row["COUNT(*)"]>1){
-                            echo "<div class='kleintext'>"."Du hast ".$row["COUNT(*)"]. " Rezepte erstellt:"."</div>"."<br>";
+                            echo "<div class='kleintext'>"."You've created ".$row["COUNT(*)"]. " recipes:"."</div>"."<br>";
                         }else{
                             #Placeholder Rezeptcard, wenn keine erstellten Rezepte
                             echo "<div class='cards'>";
@@ -202,8 +202,8 @@ global $pdo;
                             echo "<img class='cards_img' src='files/placeholder_recipepicture.jpeg' alt='Platzhalter Rezeptbild'>";
                             echo "</a>";
                             echo "<div class='cards_body'>";
-                            echo "<h5 class='cards_title'>Du hast noch kein Rezept erstellt</h5>";
-                            echo "Erstelle jetzt dein erstes eigenes Rezept!";
+                            echo "<h5 class='cards_title'>You haven't created a recipe yet</h5>";
+                            echo "Create your own recipe now!";
                             echo "</div>";
                             echo "<div class='pill_container'>";
                             echo "<a href='create_recipe.php'><button class='subscribe-btn' type='submit'>Create recipe</button></a>";
