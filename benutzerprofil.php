@@ -92,9 +92,9 @@ global $pdo;
             if($statement -> execute()) {
                 if($row= $statement->fetch()) {
                     if (($row["profilepicture"])== NULL or ""){
-                        echo "<img src=pic_collection/user_nopicture.png>"; #Placeholderbild
+                        echo "<img src=pic_collection/user_nopicture.png alt='No Profilepicture'>"; #Placeholderbild
                     }else{
-                        echo "<img class='rund_xl' src='files/" . $row["profilepicture"] . "'alt='Profilbild von" . $row["username"] . "'>" ."<br><br>";
+                        echo "<img class='rund_xl' src='files/" . $row["profilepicture"] . "'alt='Profilepicture of " . $row["username"] . "'>" ."<br><br>";
                     }
                     echo "<div class='unterüberschrift' style='letter-spacing: 1px'><b>".$row["username"]."</b></div>"."<br>";
                     echo "<div class='form-outline mb-2'><label for='password' class='form-label'><div class='kleintext'>Password</div></label><input type='text' name='password' value='********' readonly='readonly' class='form-control form-control-lg' style='border-radius: 5rem;font-size: 1rem;max-width: 30%;text-align: center;background-color: #E8E7E1;border-color: lightgrey;'></div>";
