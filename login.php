@@ -23,16 +23,16 @@ global $pdo;
             require("includes/header_inc.php");
 
             if (isset($_SESSION["login"])) {
-                echo "<div class='ueberschrift'>Upsala!</div>";
-                echo "<div class='fliesstext center_text'>Du bist schon eingeloggt, " . $_SESSION["username"] . ".<br>Logge dich zuerst wieder aus, damit du dich bei einem anderen Konto anmelden kannst.</div>";
-                echo "<div class='bild_mittig_groß'><img src='pic_collection/family_cooking.jpg' alt='Kochende Familie' style='max-width:1400px'></div>";
+                echo "<div class='ueberschrift'>Whoops!</div>";
+                echo "<div class='fliesstext center_text'>You're already logged in, " . $_SESSION["username"] . ".<br>Log out first, so you can log in to another account.</div>";
+                echo "<div class='bild_mittig_groß'><img src='pic_collection/family_cooking.jpg' alt='Kochende Familie' style='max-width:1400px; margin: 100px 0px 400px'></div>";
                 require("includes/footer_inc.php");
                 die();
             }
             ?>
             <section>
                 <div class="container py-5">
-                    <div class="row d-flex justify-content-center align-items-center h-100" style="padding: 100px 0px 400px;">
+                    <div class="row d-flex justify-content-center align-items-center h-100" style="margin: 100px 0px 400px">
                         <div class="col-12 col-md-8 col-lg-6 col-xl-5">
                             <div class="card shadow-2-strong" style="border-radius: 1rem;">
                                 <div class="card-body p-5 text-center">

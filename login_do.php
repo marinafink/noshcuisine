@@ -24,7 +24,7 @@ global $pdo;
             require("includes/header_inc.php");
             echo "<div class='ueberschrift'>Whoops!</div>";
             echo "<div class='fliesstext center_text'>You're already logged in, " . $_SESSION["username"] . ".<br>Log out first, so you can log in to another account.</div>";
-            echo "<div class='bild_mittig_groß'><img src='pic_collection/family_cooking.jpg' alt='Kochende Familie' style='max-width:1400px'></div>";
+            echo "<div class='bild_mittig_groß'><img src='pic_collection/family_cooking.jpg' alt='Kochende Familie' style='max-width:1400px; margin: 100px 0px 400px'></div>";
             require("includes/footer_inc.php");
             die();
         }
@@ -32,7 +32,7 @@ global $pdo;
             require("includes/header_inc.php");
             echo "<div class='ueberschrift'>Whoops!</div>";
             echo "<div class='fliesstext center_text'>The username or password has not been entered! Please try <a href='login.php'>again</a>.</div>";
-            echo "<div class='bild_mittig_groß'><img src='pic_collection/family_cooking.jpg' alt='Kochende Familie' style='max-width:1400px'></div>";
+            echo "<div class='bild_mittig_groß'><img src='pic_collection/family_cooking.jpg' alt='Kochende Familie' style='max-width:1400px; margin: 100px 0px 400px'></div>";
             require("includes/footer_inc.php");
             die();
         }
@@ -47,20 +47,20 @@ global $pdo;
                     require("includes/header_inc.php");
                     echo "<div class='ueberschrift'>Welcome back, " . $_SESSION["username"] . "!</div>";
                     echo "<div class='fliesstext center_text'>Good to see you back on Nosh Cuisine.<br>We hope you enjoy discovering our recipes!</div>";
-                    echo "<div class='bild_mittig_groß'><img src='pic_collection/family_cooking.jpg' alt='Kochende Familie' style='max-width:1400px; padding: 100px 0px 400px'></div>";
+                    echo "<div class='bild_mittig_groß'><img src='pic_collection/family_cooking.jpg' alt='Kochende Familie' style='max-width:1400px; margin: 100px 0px 400px'></div>";
                     require("includes/footer_inc.php");
                 } else {
                     require("includes/header_inc.php");
                     echo "<div class='ueberschrift'>Upsala!</div>";
                     echo "<div class='fliesstext center_text'>This password is incorrect. Please try <a href='login.php'>again</a>.</div>";
-                    echo "<div class='bild_mittig_groß'><img src='pic_collection/family_cooking.jpg' alt='Kochende Familie' style='max-width:1400px; padding: 100px 0px 400px'></div>";
+                    echo "<div class='bild_mittig_groß'><img src='pic_collection/family_cooking.jpg' alt='Kochende Familie' style='max-width:1400px; margin: 100px 0px 400px'></div>";
                     require("includes/footer_inc.php");
                 }
             } else {
                 require("includes/header_inc.php");
                 echo "<div class='ueberschrift'>Upsala!</div>";
                 echo "<div class='fliesstext center_text'>This user does not exist. Please try <a href='login.php'>again</a>.</div>";
-                echo "<div class='bild_mittig_groß'><img src='pic_collection/family_cooking.jpg' alt='Kochende Familie' style='max-width:1400px; padding: 100px 0px 400px'></div>";
+                echo "<div class='bild_mittig_groß'><img src='pic_collection/family_cooking.jpg' alt='Kochende Familie' style='max-width:1400px; margin: 100px 0px 400px'></div>";
                 require("includes/footer_inc.php");
             }
 
@@ -68,7 +68,7 @@ global $pdo;
             require("includes/header_inc.php");
             echo "<div class='ueberschrift'>Database error!</div>";
             echo "<div class='fliesstext center_text'>Something must have gone wrong...</div>";
-            echo "<div class='bild_mittig_groß'><img src='pic_collection/family_cooking.jpg' alt='Kochende Familie' style='max-width:1400px; padding: 100px 0px 400px'></div>";
+            echo "<div class='bild_mittig_groß'><img src='pic_collection/family_cooking.jpg' alt='Kochende Familie' style='max-width:1400px; margin: 100px 0px 400px'></div>";
             require("includes/footer_inc.php");
             die();
         }
