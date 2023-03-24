@@ -34,7 +34,7 @@ global $pdo;
                 require("includes/header_inc.php");
                 echo "<div class='ueberschrift'>See you next time and bon appétit!</div>";
                 echo "<div class='fliesstext center_text'>We hope to see you again soon, ".$username.".</div>";
-                echo "<div class='bild_mittig_groß'><img src='pic_collection/couple_cooking.jpg' alt='Kochendes Pärchen' style='max-width:1400px; padding: 100px 0px 400px'></div>";
+                echo "<div class='bild_mittig_groß'><img src='pic_collection/couple_cooking.jpg' alt='Kochendes Pärchen' style='max-width:1400px; margin: 100px 0px 400px'></div>";
                 require("includes/footer_inc.php");
             }
             ?>
