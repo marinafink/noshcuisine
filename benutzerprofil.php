@@ -81,8 +81,8 @@ global $pdo;
             <!--ÜBERPRÜFUNG OB EINGELOGGT-->
             <?php
             if(!isset($_SESSION["user_id"])) {
-                echo "<div class='ueberschrift'>Ups!</div><div class='fliesstext center_text'> Du musst dich zuerst einloggen.</div>";
-                echo "<div class=' fliesstext center_text'>Hier gehts zum <a href='login.php'>Login</a>!</div>";
+                echo "<div class='ueberschrift'>Whoops!</div><div class='fliesstext center_text'> You have to log in first.</div>";
+                echo "<div class=' fliesstext center_text'>You can log in <a href='login.php' style='color: #FC7F16'>here</a>!</div>";
                 echo "<div class='bild_mittig'><img src='pic_collection/jummy.jpg' alt='leckeres Essen'></div>";
                 require("includes/footer_inc.php");
                 die();
