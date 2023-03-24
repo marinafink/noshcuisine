@@ -652,10 +652,13 @@ a.navbar_item :hover{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: flex-start;
   align-content: space-evenly;
   margin-bottom: 16px;
+  position: absolute;
+  bottom: 18%;
+  left: 2.1rem;
 }
 
 .pill{
@@ -677,7 +680,10 @@ a.navbar_item :hover{
 /*Favorite Icon*/
 .favorite{
   cursor: pointer;
-  float: right;
+  /*float: right;*/
+  position: absolute;
+  bottom: 12%;
+  left: 80%;
 }
 
 .favorite_pill{
