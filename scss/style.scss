@@ -81,10 +81,10 @@ $margin_left: 100px;
     letter-spacing: 1px;
   }
 }
-.a:visited{
+/*.a:visited{
   text-decoration: none;
   color: $main_color;
-}
+}*/
 
 /*ÜBER UNS*/
 .container_ueberuns_mittig{
@@ -470,6 +470,11 @@ input.form-check-input{
 }
 
 /*HEADER*/
+
+a.navbar_item{
+  color: #C06000;
+  text-decoration: underline;
+}
 @media (min-width: 1100px){
   .navbar-expand-lg {
     -ms-flex-flow: row nowrap;
@@ -489,10 +494,12 @@ input.form-check-input{
   padding-right: 40px;
   margin-right: 10px;
 }
-.navbar_item{
+a.navbar_item :hover{
   padding:20px;
-  text-decoration: none;
+  color: #C06000;
+  text-decoration: underline;
 }
+
 .rund_xs {
   border-radius: 100%;
   object-fit: cover;
@@ -587,7 +594,7 @@ input.form-check-input{
 
 .main_wrapper{
  padding: 50px;
-  min-height: 1050px;
+  min-height: 2000px;
 }
 
 
@@ -1260,7 +1267,6 @@ a {
 }
 
 a:visited {
-  color: $main_color;
   color: $secondary_color;
 }
 
