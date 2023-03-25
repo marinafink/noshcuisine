@@ -22,8 +22,8 @@ global $pdo;
         <?php
         require("includes/header_inc.php");
         if (!isset($_SESSION["user_id"])) {
-            echo "<div class='ueberschrift'>Upsala!</div>";
-            echo "<div class='fliesstext center_text'>Du bist nicht eingeloggt! Logge dich <a style='color:#FC7F16;' href='login.php'>hier</a> ein, um Rezepte zu deinen Favoriten hinzuzufügen und zu entfernen.</div>";
+            echo "<div class='ueberschrift'>Whoops!</div>";
+            echo "<div class='fliesstext center_text'>You're logged out! Log in <a style='color:#FC7F16;' href='login.php'>here</a> to add recipes to your favorites or remove them.</div>";
             echo "<div class='bild_mittig_groß'><img src='pic_collection/cutting.jpg' alt='Zubereitung von Essen' style='max-width:1400px'></div>";
             require("includes/footer_inc.php");
             die();
