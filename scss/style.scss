@@ -471,10 +471,6 @@ input.form-check-input{
 
 /*HEADER*/
 
-a.navbar_item{
-  color: #C06000;
-  text-decoration: underline;
-}
 @media (min-width: 1100px){
   .navbar-expand-lg {
     -ms-flex-flow: row nowrap;
@@ -497,7 +493,7 @@ a.navbar_item{
 a.navbar_item :hover{
   padding:20px;
   color: #C06000;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 
 .rund_xs {

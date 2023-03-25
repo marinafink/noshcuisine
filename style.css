@@ -574,14 +574,8 @@ input.form-check-input {
 }
 
 /*HEADER*/
-/* line 474, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
-a.navbar_item {
-  color: #C06000;
-  text-decoration: underline;
-}
-
 @media (min-width: 1100px) {
-  /* line 479, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 475, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .navbar-expand-lg {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -590,12 +584,12 @@ a.navbar_item {
   }
 }
 
-/* line 486, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 482, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .form-inline my-2 my-lg-0 {
   flex-wrap: nowrap;
 }
 
-/* line 489, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 485, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .navbar_bild {
   width: 50px;
   height: 50px;
@@ -605,14 +599,14 @@ a.navbar_item {
   margin-right: 10px;
 }
 
-/* line 497, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 493, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 a.navbar_item :hover {
   padding: 20px;
   color: #C06000;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 
-/* line 503, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 499, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .rund_xs {
   border-radius: 100%;
   object-fit: cover;
@@ -620,21 +614,21 @@ a.navbar_item :hover {
   width: 45px;
 }
 
-/* line 509, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 505, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .rund_xs:hover {
   box-shadow: 5px 5px 15px silver;
   border-radius: 100%;
 }
 
 /*STARTSEITE*/
-/* line 514, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 510, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .container_index {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* line 519, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 515, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .container_index_zentrieren {
   display: flex;
   flex-direction: column;
@@ -643,7 +637,7 @@ a.navbar_item :hover {
 }
 
 /*BUTTONS*/
-/* line 528, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 524, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .subscribe-btn {
   padding: 0.5rem 2rem;
   border-radius: 5rem;
@@ -654,13 +648,13 @@ a.navbar_item :hover {
   outline: none;
 }
 
-/* line 537, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 533, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .subscribe-btn:hover {
   box-shadow: 5px 5px 15px #b6b9b7;
 }
 
 /*BENUTZERPROFIL*/
-/* line 542, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 538, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .container_cards_left {
   display: flex;
   flex-direction: row;
@@ -669,14 +663,14 @@ a.navbar_item :hover {
   flex-wrap: wrap;
 }
 
-/* line 549, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 545, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .mb-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* line 554, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 550, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .deletebutton {
   /*z-index: +1;
   position: absolute;
@@ -684,13 +678,13 @@ a.navbar_item :hover {
   top: 385px;
 }
 
-/* line 560, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 556, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .positioning {
   position: relative;
 }
 
 /*RUNDE BILDER BENUTZERPROFIL*/
-/* line 565, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 561, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .rund_xl {
   border-radius: 100%;
   object-fit: cover;
@@ -699,7 +693,7 @@ a.navbar_item :hover {
 }
 
 @media (max-width: 940px) {
-  /* line 572, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 568, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .rund_xl {
     width: 200px;
     height: 200px;
@@ -710,7 +704,7 @@ a.navbar_item :hover {
 /*##################################   STRUKTUR    ####################################*/
 /*###################################################################################*/
 /*Kasten der über alles, alles geht*/
-/* line 585, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 581, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .all {
   background-image: url("pic_collection/background/main.png");
   background-size: cover;
@@ -719,14 +713,14 @@ a.navbar_item :hover {
 }
 
 /*WRAPPER*/
-/* line 595, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 591, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .main_wrapper {
   padding: 50px;
   min-height: 2000px;
 }
 
 /*CONTAINER (große Boxen, in denen meistens noch Items(kleinere divs) sind)*/
-/* line 604, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 600, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .container_groß {
   display: flex;
   flex-direction: row;
@@ -734,7 +728,7 @@ a.navbar_item :hover {
   margin: 10px;
 }
 
-/* line 611, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 607, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .container_xl {
   display: flex;
   flex-direction: column;
@@ -743,7 +737,7 @@ a.navbar_item :hover {
   min-width: 100%;
 }
 
-/* line 618, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 614, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .container_mittig {
   display: flex;
   flex-direction: row;
@@ -751,7 +745,7 @@ a.navbar_item :hover {
 }
 
 /*ITEMS (kleinere Boxen, meist gefleeeeext)*/
-/* line 626, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 622, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .item_klein {
   padding-left: 30px;
   padding-right: 30px;
@@ -760,7 +754,7 @@ a.navbar_item :hover {
   text-align: center;
 }
 
-/* line 633, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 629, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .item_mittel {
   padding-left: 30px;
   padding-right: 30px;
@@ -770,7 +764,7 @@ a.navbar_item :hover {
   min-width: 350px;
 }
 
-/* line 642, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 638, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .profilepicture {
   width: 250px;
   height: 250px;
@@ -779,7 +773,7 @@ a.navbar_item :hover {
 }
 
 /*Pills für Cards*/
-/* line 650, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 646, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .pill_container {
   width: 100%;
   display: flex;
@@ -794,7 +788,7 @@ a.navbar_item :hover {
   left: 2.1rem;
 }
 
-/* line 664, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 660, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .pill {
   background-color: #FC7F16;
   border: none;
@@ -809,7 +803,7 @@ a.navbar_item :hover {
 }
 
 /*Favorite Icon*/
-/* line 678, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 674, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .favorite {
   cursor: pointer;
   position: absolute;
@@ -817,7 +811,7 @@ a.navbar_item :hover {
   left: 80%;
 }
 
-/* line 685, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 681, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .favorite_pill {
   background-color: white;
   text-decoration: none;
@@ -832,7 +826,7 @@ a.navbar_item :hover {
   font-size: 10px;
 }
 
-/* line 698, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 694, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .favorite_pill img {
   width: auto;
   height: 30px;
@@ -840,7 +834,7 @@ a.navbar_item :hover {
 
 /*Status Do-Seiten*/
 /*Ich glaube status_container, text & pic können weg, müsste überall durch andere klassen ersetzt haben!!!*/
-/* line 705, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 701, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .status_container {
   display: flex;
   flex-direction: row;
@@ -850,12 +844,12 @@ a.navbar_item :hover {
   align-content: flex-start;
 }
 
-/* line 714, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 710, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .status_text {
   padding: 20px;
 }
 
-/* line 718, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 714, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .status_pic {
   width: 50%;
   height: auto;
@@ -866,14 +860,14 @@ a.navbar_item :hover {
 }
 
 /*SEARCH SITE*/
-/* line 728, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 724, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .zentrieren_search {
   display: flex;
   justify-content: center;
 }
 
 /*CARDS*/
-/* line 733, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 729, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .container_cards {
   width: 100%;
   display: flex;
@@ -884,7 +878,7 @@ a.navbar_item :hover {
   align-content: flex-start;
 }
 
-/* line 743, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 739, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .cards {
   background-color: white;
   height: 25rem;
@@ -901,12 +895,12 @@ a.navbar_item :hover {
   border-radius: 16px;
 }
 
-/* line 759, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 755, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .cards:hover {
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
-/* line 763, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 759, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .cards_img {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
@@ -916,18 +910,18 @@ a.navbar_item :hover {
   margin-bottom: 8px;
 }
 
-/* line 772, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 768, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .cards_body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
 }
 
-/* line 777, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 773, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 h5 {
   font-size: 1.25rem;
 }
 
-/* line 781, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 777, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .cards_title {
   margin-bottom: .5rem;
   overflow: hidden;
@@ -936,7 +930,7 @@ h5 {
   -webkit-box-orient: vertical;
 }
 
-/* line 789, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 785, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .cards_text {
   display: block;
   margin-block-start: 1em;
@@ -950,18 +944,18 @@ h5 {
 }
 
 /*VERSUCH FÜR GANZE KARTE LINK; NICHT FERTIG*/
-/* line 802, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 798, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 h5.cards_title {
   color: gray;
 }
 
-/* line 805, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 801, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 p.cards_text {
   color: gray;
 }
 
 /* Popup box BEGIN */
-/* line 810, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 806, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .hover_bkgr_fricc {
   background: rgba(0, 0, 0, 0.4);
   cursor: pointer;
@@ -974,14 +968,14 @@ p.cards_text {
   z-index: 10000;
 }
 
-/* line 821, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 817, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .hover_bkgr_fricc .helper {
   display: inline-block;
   height: 100%;
   vertical-align: middle;
 }
 
-/* line 826, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 822, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .hover_bkgr_fricc > div {
   background-color: #fff;
   box-shadow: 10px 10px 60px #555;
@@ -996,7 +990,7 @@ p.cards_text {
   padding: 15px 5%;
 }
 
-/* line 839, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 835, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .popupCloseButton {
   background-color: #fff;
   border: 3px solid #999;
@@ -1015,12 +1009,12 @@ p.cards_text {
   text-align: center;
 }
 
-/* line 856, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 852, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .popupCloseButton:hover {
   background-color: #ccc;
 }
 
-/* line 859, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 855, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .trigger_popup_fricc {
   cursor: pointer;
   font-size: 20px;
@@ -1031,7 +1025,7 @@ p.cards_text {
 
 /* Popup box BEGIN */
 /* REZEPTDETAILSEITE */
-/* line 872, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 868, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .container_detailview_top {
   font-family: Songti SC;
   color: #263C38;
@@ -1043,7 +1037,7 @@ p.cards_text {
   flex-wrap: wrap;
 }
 
-/* line 883, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 879, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .recipe_title {
   margin-left: 100px;
   margin-bottom: 20px;
@@ -1056,7 +1050,7 @@ p.cards_text {
   text-align: left;
 }
 
-/* line 890, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 886, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .recipe_description {
   margin-left: 100px;
   font-family: Songti SC;
@@ -1067,7 +1061,7 @@ p.cards_text {
   margin-bottom: 30px;
 }
 
-/* line 898, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 894, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .container_detailview_top_right {
   display: flex;
   flex-direction: column;
@@ -1080,7 +1074,7 @@ p.cards_text {
   font-size: 20px;
 }
 
-/* line 907, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 903, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .container_profiledata {
   display: flex;
   flex-direction: row;
@@ -1093,7 +1087,7 @@ p.cards_text {
   letter-spacing: -1.5px;
 }
 
-/* line 915, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 911, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .author_date {
   display: flex;
   flex-direction: column;
@@ -1105,18 +1099,18 @@ p.cards_text {
   font-size: 20px;
 }
 
-/* line 922, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 918, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .author_date span {
   font-weight: bold;
 }
 
-/* line 928, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 924, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .cooking_data span {
   font-weight: bold;
 }
 
 /* normale Ausgaben aus DB */
-/* line 934, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 930, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .profilepicture_small {
   width: 55px;
   height: 55px;
@@ -1125,14 +1119,14 @@ p.cards_text {
   margin-right: 15px;
 }
 
-/* line 941, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 937, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .download_save_rec {
   display: flex;
   flex-direction: row;
   margin-left: 0%;
 }
 
-/* line 947, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 943, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .amountservings {
   margin: 20px 100px;
   display: flex;
@@ -1141,7 +1135,7 @@ p.cards_text {
   height: 40px;
 }
 
-/* line 955, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 951, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .amountservings form {
   margin: 20px;
   left: 100px;
@@ -1151,7 +1145,7 @@ p.cards_text {
   height: auto;
 }
 
-/* line 964, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 960, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .amountservings input {
   margin-left: 20px;
   margin-right: 0px;
@@ -1166,7 +1160,7 @@ p.cards_text {
   padding: 10px;
 }
 
-/* line 977, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 973, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .amountservings button {
   padding: 2px 20px 2px 13px;
   border-radius: 0 20px 20px 0;
@@ -1177,30 +1171,30 @@ p.cards_text {
   outline: none;
 }
 
-/* line 986, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 982, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .amountservings button:hover {
   /*box-shadow: 5px 5px 15px silver;*/
   background-color: #B57340;
 }
 
-/* line 990, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 986, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .amountservings input:hover {
   /*box-shadow: 5px 5px 15px silver;*/
   border-color: #B57340;
 }
 
-/* line 994, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 990, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .amountservings input:focus-visible {
   border-color: #B57340;
 }
 
-/* line 997, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 993, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .amountservings img {
   height: 40px;
   width: 40px;
 }
 
-/* line 1001, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 997, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .amountservings span {
   font-family: Songti SC;
   color: #263C38;
@@ -1209,13 +1203,13 @@ p.cards_text {
   font-size: 20px;
 }
 
-/* line 1005, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1001, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .ingredients_all {
   margin-left: 100px;
   width: 800px;
 }
 
-/* line 1009, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1005, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .ingredient {
   display: flex;
   flex-direction: row;
@@ -1224,12 +1218,12 @@ p.cards_text {
   padding-left: 20%;
 }
 
-/* line 1016, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1012, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .unit {
   margin: 10px;
 }
 
-/* line 1019, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1015, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .instruction_title {
   margin-left: 100px;
   margin-top: 40px;
@@ -1241,7 +1235,7 @@ p.cards_text {
   font-size: 20px;
 }
 
-/* line 1027, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1023, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .recipe_instruction {
   margin: 40px 0 100px 100px;
   width: 800px;
@@ -1252,7 +1246,7 @@ p.cards_text {
 }
 
 /* SLideshow */
-/* line 1034, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1030, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .slideshow-container {
   box-sizing: border-box;
   position: relative;
@@ -1260,7 +1254,7 @@ p.cards_text {
   margin-left: 100px;
 }
 
-/* line 1041, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1037, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .slidesimg {
   object-fit: cover;
   border-radius: 40px;
@@ -1269,13 +1263,13 @@ p.cards_text {
   background-color: #c8c1bb;
 }
 
-/* line 1049, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1045, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .slider_slides {
   /* die images verstecken */
   display: none;
 }
 
-/* line 1053, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1049, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -1285,24 +1279,24 @@ p.cards_text {
   transition: 0.6s ease;
 }
 
-/* line 1061, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1057, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .prev img, .next img {
   width: 100px;
 }
 
 /* der weiter button kommt nach rechts */
-/* line 1066, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1062, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .next {
   right: 0;
 }
 
-/* line 1070, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1066, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .prev:hover, .next:hover {
   /*hier noch was cooles hinzufügen*/
   transition: 0.6s ease;
 }
 
-/* line 1075, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1071, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .textslider {
   color: #263C38;
   background-color: #e8e7e2;
@@ -1319,7 +1313,7 @@ p.cards_text {
 }
 
 /* Number text (1/3 etc) */
-/* line 1091, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1087, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .numbertext {
   color: #263C38;
   background-color: #e8e7e2;
@@ -1333,7 +1327,7 @@ p.cards_text {
 }
 
 /* Fading animation */
-/* line 1104, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1100, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -1349,29 +1343,29 @@ p.cards_text {
 }
 
 /* Sternebewertung */
-/* line 1117, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1113, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .bewertung label {
   cursor: Pointer;
   height: 20px;
 }
 
-/* line 1121, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1117, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .bewertung input {
   /*radio button ausblenden*/
   display: None;
 }
 
-/* line 1124, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1120, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .sternebewertung {
   float: Left;
 }
 
-/* line 1127, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1123, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .sternebewertung:not(:checked) > input {
   display: None;
 }
 
-/* line 1130, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1126, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .sternebewertung:not(:checked) > label {
   float: Right;
   width: 35px;
@@ -1385,12 +1379,12 @@ p.cards_text {
   transition: all .5s;
 }
 
-/* line 1142, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1138, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .sternebewertung:not(:checked) > label::before {
   content: '★ ';
 }
 
-/* line 1145, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1141, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .sternebewertung > input:checked ~ label {
   color: #FC7F16;
   text-shadow: 1px 1px #C06000, 2px 2px #904000, 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.3);
@@ -1398,7 +1392,7 @@ p.cards_text {
   animation-iteration-count: 1;
 }
 
-/* line 1151, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1147, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .sternebewertung:not(:checked) > label:hover,
 .sternebewertung:not(:checked) > label:hover ~ label {
   color: #FC7F16;
@@ -1416,7 +1410,7 @@ p.cards_text {
 }
 
 /* Kommentare und Sternebewertungen */
-/* line 1169, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1165, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .recipe_review {
   box-sizing: border-box;
   font-family: Europa-Regular;
@@ -1431,7 +1425,7 @@ p.cards_text {
   padding: 20px;
 }
 
-/* line 1180, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1176, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .recipe_review form {
   display: flex;
   flex-direction: row-reverse;
@@ -1439,17 +1433,17 @@ p.cards_text {
   justify-content: center;
 }
 
-/* line 1186, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1182, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .comment-box {
   width: 400px;
 }
 
-/* line 1189, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1185, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .comment-box button {
   height: 35px;
 }
 
-/* line 1193, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1189, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .comment-box textarea {
   background: none;
   border-style: solid;
@@ -1459,27 +1453,27 @@ p.cards_text {
   padding: 20px;
 }
 
-/* line 1201, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1197, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .comment-box :hover {
   border-color: #FC7F16;
 }
 
-/* line 1204, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1200, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .comment-box :focus-visible {
   border-color: #FC7F16;
 }
 
-/* line 1207, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1203, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .comment-box:focus {
   border-color: #FC7F16;
 }
 
-/* line 1210, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1206, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .form-control form-control-sm:hover {
   background-color: #FC7F16;
 }
 
-/* line 1214, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1210, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .review_left {
   display: flex;
   flex-direction: column;
@@ -1487,18 +1481,18 @@ p.cards_text {
   font-size: 15px;
 }
 
-/* line 1220, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1216, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .bewertungfile {
   font-size: 15px;
   margin-top: 20px;
 }
 
-/* line 1224, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1220, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .bewertungfile input {
   font-size: 16px;
 }
 
-/* line 1227, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1223, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .recipe_review button {
   padding: 2px 20px 2px 13px;
   border-radius: 20px;
@@ -1510,12 +1504,12 @@ p.cards_text {
   margin-top: 5px;
 }
 
-/* line 1237, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1233, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .recipe_review button:hover {
   background-color: #FC7F16;
 }
 
-/* line 1240, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1236, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .comments {
   margin-left: 100px;
   margin-top: 50px;
@@ -1524,7 +1518,7 @@ p.cards_text {
   width: 800px;
 }
 
-/* line 1248, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1244, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .single_comment {
   display: flex;
   flex-direction: row;
@@ -1533,7 +1527,7 @@ p.cards_text {
   padding: 30px;
 }
 
-/* line 1255, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1251, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .nocomments {
   margin-left: 100px;
   margin-top: 60px;
@@ -1545,28 +1539,28 @@ p.cards_text {
   font-size: 20px;
 }
 
-/* line 1262, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1258, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .nocomments a:link {
   text-decoration: none;
   color: #FC7F16;
 }
 
-/* line 1267, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1263, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 a {
   color: #FC7F16;
 }
 
-/* line 1271, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1267, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 a:visited {
   color: #FC7F16;
 }
 
-/* line 1275, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1271, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .nocomments a:hover {
   color: #C06000;
 }
 
-/* line 1278, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1274, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .commentright {
   display: flex;
   flex-direction: column;
@@ -1574,7 +1568,7 @@ a:visited {
   width: 100%;
 }
 
-/* line 1284, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1280, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .commentrighttop {
   display: flex;
   flex-direction: row;
@@ -1582,161 +1576,161 @@ a:visited {
   padding-bottom: 20px;
 }
 
-/* line 1290, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1286, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .commentstars {
   height: 35px;
   margin-top: -7px;
 }
 
-/* line 1294, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1290, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .commentstars img {
   height: 35px;
 }
 
 @media (max-width: 1200px) {
-  /* line 1298, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1294, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .container_detailview_top_right {
     /*margin-top: 40px;*/
   }
 }
 
 @media (max-width: 940px) {
-  /* line 1303, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1299, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .comments, .recipe_instruction, .recipe_review {
     width: 500px;
   }
-  /* line 1306, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1302, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .recipe_review form {
     justify-content: flex-end;
   }
-  /* line 1309, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1305, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .review_left {
     margin-bottom: 40px;
   }
-  /* line 1312, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1308, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .slidesimg {
     width: 500px;
     height: 300px;
   }
-  /* line 1316, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1312, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .ingredients_all {
     width: 500px;
     margin-top: 60px;
     margin-left: 0px;
   }
-  /* line 1321, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1317, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .amountservings {
     flex-direction: column;
     align-items: flex-start;
   }
-  /* line 1325, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1321, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .amountservings input {
     margin-left: 0px;
   }
-  /* line 1328, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1324, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .amountservings form {
     margin-left: 0px;
   }
 }
 
 @media (max-width: 630px) {
-  /* line 1333, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1329, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .slidesimg {
     width: 400px;
     height: 200px;
   }
-  /* line 1337, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1333, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .recipe_title {
     font-size: 40px;
   }
-  /* line 1340, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1336, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .recipe_description {
     font-size: 25px;
     margin-bottom: 5px;
   }
-  /* line 1344, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1340, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .recipe_instruction {
     width: 400px;
     line-height: 1;
     margin: 20px 0 10px 100px;
   }
-  /* line 1349, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1345, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .ingredient {
     line-height: 1;
   }
-  /* line 1352, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1348, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .nocomments {
     font-size: 17px;
     margin-top: 40px;
     width: 400px;
   }
-  /* line 1357, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1353, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .comments, .recipe_review {
     width: 400px;
   }
 }
 
 @media (max-width: 510px) {
-  /* line 1362, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1358, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .recipe_title, .slideshow-container, .container_detailview_top_right, .recipe_description, .amountservings, .instruction_title, .recipe_instruction, .nocomments, .comments, .recipe_review {
     margin-left: 50px;
   }
-  /* line 1366, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1362, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .slidesimg {
     width: 400px;
     height: 200px;
   }
-  /* line 1370, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1366, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .recipe_title {
     font-size: 40px;
   }
-  /* line 1373, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1369, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .recipe_description {
     font-size: 25px;
     margin-bottom: 5px;
   }
-  /* line 1377, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1373, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .recipe_instruction {
     width: 400px;
     line-height: 1;
     margin: 20px 0 10px 100px;
   }
-  /* line 1382, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1378, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .ingredient {
     line-height: 1;
   }
-  /* line 1385, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1381, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .nocomments {
     font-size: 17px;
     margin-top: 40px;
     width: 400px;
   }
-  /* line 1390, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1386, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .comments {
     width: 400px;
   }
 }
 
 @media (max-width: 350px) {
-  /* line 1395, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+  /* line 1391, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
   .container_detailview_top_right {
     margin-top: 40px;
   }
 }
 
 /*SUCHLEISTE*/
-/* line 1401, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1397, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .suchleiste input.form-control:focus {
   border-color: transparent;
   box-shadow: black;
 }
 
-/* line 1405, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1401, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .weite_suchleiste {
   width: 50%;
 }
 
-/* line 1408, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1404, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .search_button {
   min-width: 90px;
   height: 53px;
@@ -1746,7 +1740,7 @@ a:visited {
   border-radius: 0rem 5rem 5rem 0rem;
 }
 
-/* line 1416, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1412, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 button.btn.btn-light.dropdown-toggle {
   color: #fff;
   background-color: white;
@@ -1754,7 +1748,7 @@ button.btn.btn-light.dropdown-toggle {
   border-radius: 5rem 0rem 0rem 5rem;
 }
 
-/* line 1422, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1418, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .dropdown-menu.show {
   display: flex;
   flex-direction: row;
@@ -1762,20 +1756,20 @@ button.btn.btn-light.dropdown-toggle {
   width: 700px;
 }
 
-/* line 1428, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1424, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .dropdown-item:active {
   color: #fff;
   text-decoration: none;
   background-color: none;
 }
 
-/* line 1433, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1429, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .dropdown-item:focus, .dropdown-item:hover {
   color: #263C38;
   background-color: #e8e7e2;
 }
 
-/* line 1437, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
+/* line 1433, ../../../../../PhpstormProjects/noshcuisine/scss/style.scss */
 .container_klein {
   display: flex;
   flex-direction: row;

@@ -28,7 +28,7 @@ global $pdo;
             # Unterschied bei Eingeloggt / Ausgeloggt
             if (!isset($_SESSION["user_id"])){
                 echo "<element onclick='checklogin();'>"."<a href='index.php'><img src='pic_collection/icons/icon_bearbeiten_offline.png' alt='Rezept erstellen' height='45px' width='45px'></a>"."</element>";
-                echo "<a class=navbar_item href='login.php' style='color: #FC7F16'>"."Sign in"."</a>";
+                echo "<a class=navbar_item href='login.php' style='color: #FC7F16; margin: 20px'>"."Sign in"."</a>";
                 echo "<a class=navbar_item href='register.php' style='color: #FC7F16'>"."Register"."</a>";
             }else{
                 echo "<a class='navbar_bild' href='create_recipe.php'><img class='rund_xs' src='pic_collection/icons/icon_bearbeiten.png' alt='Rezept erstellen' height='45px' width='45px'></a>";
