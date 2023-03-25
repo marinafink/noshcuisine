@@ -233,13 +233,13 @@ global $pdo;
                         $statement_fav->bindParam(":user_id", $_SESSION["user_id"]);
                         if ($statement_fav->execute()) {
                             if ($statement_fav->fetch()) {
-                                echo "<div class='favorite_pill'><a class='favorite' onclick='deleteFromFavorites(" . $_GET["id"] . ")' style='float: right; margin-left: 0%;'><img src='pic_collection/icons/icon_herz.png' alt='Rezept entfavorisieren' height='30px' width='30px'></a></div><br>";
+                                echo "<div class='favorite_pill'><a class='favorite' style='position: static' onclick='deleteFromFavorites(" . $_GET["id"] . ")' style='float: right; margin-left: 0%;'><img src='pic_collection/icons/icon_herz.png' alt='Rezept entfavorisieren' height='30px' width='30px'></a></div><br>";
                             } else {
-                                echo "<div class='favorite_pill'><a class='favorite' style='float: right; margin-left: 0%;' onclick='addToFavorites(" . $_GET["id"] . ")'><img src='pic_collection/icons/icon_herz_leer.png' alt='Rezept favorisieren' height='30px' width='30px'></a></div><br>";
+                                echo "<div class='favorite_pill'><a class='favorite' style='float: right; margin-left: 0%; position: static' onclick='addToFavorites(" . $_GET["id"] . ")'><img src='pic_collection/icons/icon_herz_leer.png' alt='Rezept favorisieren' height='30px' width='30px'></a></div><br>";
                             }
                         }
                     } else {
-                        echo "<div class='favorite_pill'><a class='favorite' style='float: right;' onclick='addToFavorites(" . $_GET["id"] . ")'><img src='pic_collection/icons/icon_herz_leer.png' alt='Rezept favorisieren' height='30px' width='30px'></a></div><br>";
+                        echo "<div class='favorite_pill'><a class='favorite' style='float: right; position: static' onclick='addToFavorites(" . $_GET["id"] . ")'><img src='pic_collection/icons/icon_herz_leer.png' alt='Rezept favorisieren' height='30px' width='30px'></a></div><br>";
                     }
                     ?>
             </div>
