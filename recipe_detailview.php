@@ -72,7 +72,7 @@ global $pdo;
 
     #id muss übergeben sein
     if(!isset($_GET["id"])){
-        echo "<div>Hier ist wohl ein Fehler aufgetreten!</div>";
+        echo "<div>Something went wrong here!</div>";
         require("includes/footer_inc.php");
         die();
     }
