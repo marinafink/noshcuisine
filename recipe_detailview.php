@@ -72,7 +72,9 @@ global $pdo;
 
     #id muss übergeben sein
     if(!isset($_GET["id"])){
-        echo "<div>Something went wrong here!</div>";
+        echo "<div class='ueberschrift'>Whoops!</div>";
+        echo "<div class='fliesstext center_text'>Something went wrong here.</div>";
+        echo "<div class='bild_mittig_groß'><img src='pic_collection/jummy.jpg' alt='Zubereitung von Essen' style='max-width:1400px'></div>";
         require("includes/footer_inc.php");
         die();
     }
